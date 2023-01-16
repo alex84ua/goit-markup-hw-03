@@ -1,4 +1,5 @@
 .body {
+  min-width: 1440px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   color: #2e2f42;
@@ -68,9 +69,9 @@ button {
 }
 .header {
   background: #ffffff;
+  border-bottom: 2px solid #e7e9fc;
   width: 1440px;
   height: 76px;
-  border-bottom: 2px solid #e7e9fc;
 }
 .menu {
   display: flex;
@@ -309,11 +310,11 @@ button {
 .btn-page {
   width: 1440px;
   background: #ffffff;
+  padding-top: 96px;
 }
 .list-btn-page {
   display: flex;
   justify-content: center;
-  padding-top: 96px;
   margin-bottom: 72px;
   gap: 24px;
 }
@@ -323,7 +324,11 @@ button {
   gap: 24px;
   row-gap: 48px;
   flex-wrap: wrap;
+  padding-bottom: 120px;
 }
+/* .img-page-container > .img-page {
+  flex-basis: calc(100% / 3);
+} */
 .text-img-box {
   padding-top: 32px;
   padding-bottom: 32px;
