@@ -310,7 +310,6 @@ button {
   gap: 24px;
   row-gap: 48px;
   flex-wrap: wrap;
-  padding-bottom: 120px;
 }
 .text-img-box {
   padding-top: 32px;
